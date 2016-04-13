@@ -4,13 +4,19 @@ BEGIN
  Bar[0]:=
  BEGIN
   BarID:=59422;
-  Bars:=6;
+  Bars:=12;
   Bar[0]:=0;
   Bar[1]:=59415;
   Bar[2]:=59416;
   Bar[3]:=59412;
   Bar[4]:=59414;
   Bar[5]:=0;
+  Bar[6]:=124963;
+  Bar[7]:=0;
+  Bar[8]:=124960;
+  Bar[9]:=0;
+  Bar[10]:=124961;
+  Bar[11]:=0;
   Style:=0;
   ExStyle:=0;
   PrevFloating:=0;
@@ -29,10 +35,30 @@ BEGIN
  Bar[1]:=
  BEGIN
   BarID:=59420;
-  Bars:=3;
+  Bars:=23;
   Bar[0]:=0;
   Bar[1]:=59413;
   Bar[2]:=0;
+  Bar[3]:=124963;
+  Bar[4]:=0;
+  Bar[5]:=124968;
+  Bar[6]:=0;
+  Bar[7]:=124967;
+  Bar[8]:=0;
+  Bar[9]:=124966;
+  Bar[10]:=0;
+  Bar[11]:=124965;
+  Bar[12]:=0;
+  Bar[13]:=124962;
+  Bar[14]:=0;
+  Bar[15]:=124961;
+  Bar[16]:=0;
+  Bar[17]:=124960;
+  Bar[18]:=0;
+  Bar[19]:=124976;
+  Bar[20]:=0;
+  Bar[21]:=124964;
+  Bar[22]:=0;
   Style:=0;
   ExStyle:=0;
   PrevFloating:=0;
@@ -267,6 +293,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=13;
   END;
   nViews:=1;
  END;
