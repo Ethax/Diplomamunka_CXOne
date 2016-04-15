@@ -78,10 +78,10 @@ BEGIN
  BEGIN
   BarID:=59414;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="1 7";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1366 148";
+  MRUDockPos:="1 7 1366 150";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -103,10 +103,10 @@ BEGIN
  BEGIN
   BarID:=59412;
   Visible:=0;
-  Pos:="344 4";
+  Pos:="484 6";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="344 4 1298 184";
+  MRUDockPos:="484 6 1438 186";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -128,10 +128,10 @@ BEGIN
  BEGIN
   BarID:=59416;
   Visible:=0;
-  Pos:="1 4";
+  Pos:="1 6";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 4 710 184";
+  MRUDockPos:="1 6 710 186";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -155,7 +155,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 300 576";
+  MRUDockPos:="0 -2 300 888";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=8084;
@@ -165,7 +165,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 578";
+  MRUVertDock:="300 890";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -177,12 +177,12 @@ BEGIN
  BEGIN
   BarID:=59415;
   Visible:=0;
-  Pos:="1 4";
+  Pos:="1 6";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 4 958 184";
+  MRUDockPos:="1 6 958 186";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-1 736";
+  MRUFloatPos:="-1 1035";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
@@ -199,7 +199,7 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="1366 768";
+ Screen:="1920 1080";
 END;
 ProjectTree:=
 BEGIN
@@ -207,171 +207,21 @@ BEGIN
  Item[1]:=2;
  Item[2]:=13;
  Item[3]:=14;
- Item[4]:=119;
- Item[5]:=143;
+ Item[4]:=155;
+ Item[5]:=185;
  ItemCount:=6;
- Sumcheck:=207;
- Selected:=123;
+ Sumcheck:=264;
+ Selected:=14;
+ ScrollPos:="5 0";
 END;
 Frame[0]:=
 BEGIN
- Norm:="0130 0130 1060 0426";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Actions.Sections.ROBOT_3_Next_Step!ROBOT_3_Next_Step";
- Type:=13;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0078 0078 1008 0374";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Actions.Sections.ROBOT_3_Set_Output!ROBOT_3_Set_Output";
- Type:=13;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0000 0000 0930 0296";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main!Main.Symbols";
- Type:=3;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-    SortCol:=2;
-   END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0130 0130 1060 0426";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Actions.Sections.ROBOT_ALL_Start!ROBOT_ALL_Start";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=2;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0000 0000 0930 0296";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Actions.Sections.ROBOT_3_Wait_To_Finish!ROBOT_3_Wait_To_Finish";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0026 0026 0956 0322";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Actions.Sections.ROBOT_1_2_Wait_To_Finish!ROBOT_1_2_Wait_To_Finish";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0052 0052 0982 0348";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Subcharts.Sections.Robot_1_2_Operation!Robot_1_2_Operation";
- Type:=12;
- Xsplit:=465;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=76;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[7]:=
-BEGIN
- Norm:="0156 0156 1034 0550";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Subcharts.Sections.Robot_3_Operation!Robot_3_Operation";
- Type:=12;
- Xsplit:=439;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Yscroll:=6;
-   Mag:=71;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[8]:=
-BEGIN
  Max:=true;
- Norm:="0078 0078 1008 0374";
+ Norm:="0156 0156 1480 0754";
  Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Actions.Sections.Initial_Reset!Initial_Reset";
- Type:=13;
+ Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main!Main";
+ Type:=12;
+ Xsplit:=662;
  Views:=
  BEGIN
   View[0]:=
@@ -385,7 +235,7 @@ BEGIN
   nViews:=2;
  END;
 END;
-nFrames:=9;
+nFrames:=1;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
