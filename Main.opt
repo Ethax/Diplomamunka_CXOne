@@ -207,21 +207,21 @@ BEGIN
  Item[1]:=2;
  Item[2]:=13;
  Item[3]:=14;
- Item[4]:=155;
- Item[5]:=185;
+ Item[4]:=224;
+ Item[5]:=264;
  ItemCount:=6;
- Sumcheck:=264;
+ Sumcheck:=376;
  Selected:=14;
- ScrollPos:="5 0";
+ ScrollPos:="0 5";
 END;
 Frame[0]:=
 BEGIN
  Max:=true;
- Norm:="0156 0156 1480 0754";
+ Norm:="0286 0286 1610 0884";
  Min:="-001 -001";
  Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main!Main";
  Type:=12;
- Xsplit:=662;
+ Xsplit:=1104;
  Views:=
  BEGIN
   View[0]:=
