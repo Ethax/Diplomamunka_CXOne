@@ -81,7 +81,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1366 148";
+  MRUDockPos:="1 5 1920 169";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -90,7 +90,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1365 143";
+  MRUHorzDock:="1919 164";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -103,10 +103,10 @@ BEGIN
  BEGIN
   BarID:=59412;
   Visible:=0;
-  Pos:="344 4";
+  Pos:="484 6";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="344 4 1298 184";
+  MRUDockPos:="484 6 1438 186";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -115,7 +115,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="954 143";
+  MRUHorzDock:="954 164";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,10 +128,10 @@ BEGIN
  BEGIN
   BarID:=59416;
   Visible:=0;
-  Pos:="1 4";
+  Pos:="1 6";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 4 710 184";
+  MRUDockPos:="1 6 710 186";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -140,7 +140,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="709 143";
+  MRUHorzDock:="709 164";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -155,7 +155,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 300 576";
+  MRUDockPos:="0 -2 300 888";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=8084;
@@ -165,7 +165,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 578";
+  MRUVertDock:="300 890";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -177,19 +177,19 @@ BEGIN
  BEGIN
   BarID:=59415;
   Visible:=0;
-  Pos:="1 4";
+  Pos:="1 6";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 4 958 184";
+  MRUDockPos:="1 6 958 186";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-1 736";
+  MRUFloatPos:="-1 1035";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="957 143";
+  MRUHorzDock:="957 164";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -199,7 +199,7 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="1366 768";
+ Screen:="1920 1080";
 END;
 ProjectTree:=
 BEGIN
@@ -207,40 +207,21 @@ BEGIN
  Item[1]:=2;
  Item[2]:=13;
  Item[3]:=14;
- Item[4]:=227;
- Item[5]:=267;
+ Item[4]:=218;
+ Item[5]:=257;
  ItemCount:=6;
- Sumcheck:=379;
- Selected:=261;
- ScrollPos:="0 14";
+ Sumcheck:=369;
+ Selected:=14;
+ ScrollPos:="0 3";
 END;
 Frame[0]:=
 BEGIN
- Norm:="0052 0052 0926 0442";
- Min:="-001 -001";
- Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main.Actions.Sections.SAFETY_Check_Operator_Position!SAFETY_Check_Operator_Position";
- Type:=13;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[1]:=
-BEGIN
  Max:=true;
- Norm:="0078 0078 0956 0472";
+ Norm:="0000 0000 1324 0598";
  Min:="-001 -001";
  Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main!Main";
  Type:=12;
- Xsplit:=624;
+ Xsplit:=1070;
  Views:=
  BEGIN
   View[0]:=
@@ -254,7 +235,7 @@ BEGIN
   nViews:=2;
  END;
 END;
-nFrames:=2;
+nFrames:=1;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
