@@ -78,10 +78,10 @@ BEGIN
  BEGIN
   BarID:=59414;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="1 7";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1920 169";
+  MRUDockPos:="1 7 1366 171";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -90,7 +90,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1919 164";
+  MRUHorzDock:="1365 164";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -205,14 +205,12 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=13;
- Item[3]:=14;
- Item[4]:=218;
- Item[5]:=257;
- ItemCount:=6;
- Sumcheck:=369;
- Selected:=14;
- ScrollPos:="0 3";
+ Item[2]:=14;
+ Item[3]:=221;
+ Item[4]:=261;
+ ItemCount:=5;
+ Sumcheck:=373;
+ Selected:=13;
 END;
 Frame[0]:=
 BEGIN
@@ -221,7 +219,7 @@ BEGIN
  Min:="-001 -001";
  Access:="PROGRAM:Karosszeria_gyartosor.Resources.NewResource1.Programs.Main!Main";
  Type:=12;
- Xsplit:=1070;
+ Xsplit:=1048;
  Views:=
  BEGIN
   View[0]:=
